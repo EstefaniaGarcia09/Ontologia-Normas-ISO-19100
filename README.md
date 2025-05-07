@@ -25,8 +25,8 @@ La ontología está diseñada para ser utilizada en:
 Para abrir la ontología directamente desde una URL en el entorno de Protégé:
 1. Desde el aplicativo de Protégé de escritorio, selecciona el menú File
 2. En las opciones que se despliegan, se elige la opción Open from URL
-3. En la ventana emergente se pega el siguiente enlace [OntologíaFamilia19100 V.F.OWL](https://github.com/EstefaniaGarcia09/Ontologia-Normas-ISO-19100/OntologíaFamilia19100 V.F.OWL) y se da en la opción Aceptar
-4. De esta manera se migrara la ontología al entorno Protégé y se podrá visualizar todos los elementos que la componen.   
+3. En la ventana emergente se pega el siguiente enlace (https://github.com/EstefaniaGarcia09/Ontologia-Normas-ISO-19100/ ) y se da en la opción Aceptar
+5. De esta manera se migrara la ontología al entorno Protégé y se podrá visualizar todos los elementos que la componen.   
 
 
 ### Créditos  
