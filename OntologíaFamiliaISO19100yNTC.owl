@@ -1,0 +1,2165 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/estefania/ontologies/2025/3/OntologíaFamiliaISO19100yNTC"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/estefania/ontologies/2025/3/OntologíaFamiliaISO19100yNTC">
+    <Prefix name="" IRI="http://www.semanticweb.org/estefania/ontologies/2025/3/OntologíaFamiliaISO19100yNTC/"/>
+    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="elements" IRI="http://purl.org/dc/elements/1.1/ "/>
+    <Prefix name="elements1" IRI="http://purl.org/dc/elements/1.1/%20"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="elements:creator"/>
+        <Literal>Estefanía García</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="elements:description"/>
+        <Literal>Ontología sobre la Familia de estándares ISO 19100 y Normas Técnicas Colombianas relacionadas</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="elements:tittle"/>
+        <Literal>Ontología Familia ISO 19100 y NTC</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#AbstraccionMundoReal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alcance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AlcanceNormasInformacionGeograficaISO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AlcanceNormasPerfiles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anexo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnexoA_PruebasAbstractas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnexoB_CapasInteroperabilidad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnexoC_InteroperabilidadGobiernoElectronico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnexoD_EstandaresFundamentalesIDE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnexoE_AbstraccionMundoRealInformacionGeografica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnexoF_DescripcionNormasInformacionGeograficaISO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnexoG_FacilidadModeladoEsquemasConceptuales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AplicacionProcedural"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AplicacionSemantica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AplicacionServicio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AplicacionSintactico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BuscarAccederBasesDatos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clases"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clasificadores"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CoexistenciaModulosUML_OWL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Conformidad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DesarrolloPerfil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DiagramasClasesPaquetesUML"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Enumeraciones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EstandaresProcedimiento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FamiliaISO19100"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FormalismoConceptual"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Formalismo_Conceptual"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FundamentoSemantico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FundamentoServicios"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FundamentoSintactico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fundamentos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FundamentosInteroperabilidadAlcanceModeloReferencia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#General"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GeneralAbstraccion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GeneralAbstraccionE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GeneralCapas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GeneralIDE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GeneralModeloReferencia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GobiernoElectronico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GobiernoElectronicoDatosVinculados"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GobiernoElectronicoServiciosGubernamentales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO19101_Modelo_de_Referencia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19101-_2_Modelo_de_Referencia_-_Imágenes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19103_Esquemas_de_Lenguaje_Conceptual"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19104_Terminología"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19105_Conformidad_y_Pruebas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19106_Perfiles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19107_Esquema_espacial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19108_Modelo_temporal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19109_Reglas_para_modelos_de_aplicación"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19110_Metodología_de_catalogación_de_fenómenos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19111_Sistemas_de_referencia_con_coordenadas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19112_Sistemas_de_referenciación_con_identificadores_geográficos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19113_Principios_de_calidad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19114_Evaluación_de_Calidad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19115-2_Metadatos__-_Extensión_para_imágenes_y_datos_de_grilla"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19115_Metadatos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19116_Servicios_de_posicionamiento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19117_Representación"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19119_Servicios"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19120_Normas_funcionales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19121_Imágenes_y_datos_de_grilla"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19122_Cuantificación_y_certificación_de_personal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19123_Esquemas_para_Cobertura"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19124_Componentes_de_imágenes_y_datos_de_grilla"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19125-2_Opción_SFA_-_SQL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19126_Diccionarios_y_registros_de_conceptos_de_características"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19127_Códigos_y_parámetros_geodésicos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19128_Interfaz_de_servidor_de_mapas_Web"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19129_Datos_de_Imágenes_y_Cobertura"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19130_Modelos_de_datos_de_sensores_para_imágenes_y_datos_de_grilla"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19131_Especificaciones_de_producto_de_datos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19133_LBS_-_Seguimiento_y_navegación"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19134_LBS_Multimodal_para_enrutamiento_y_navegación"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19135_Procedimientos_para_registros_de_items"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19139_Metadatos_-_Esquema_de_implementación_XML"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19141_Esquema_para_características_móviles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19142_Servicios_de_entidades_web"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19143_Codificación_de_filtros"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19144-1__Sistemas_de_Clasificación_-_Estructura_Sistemas_de_Clasificación"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19144-2_Sistemas_de_Clasificación_-_Sistema_de_clasificación_de_la_cobertura_terrestre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19145_Registro_de_representaciones_de_ubicaciones_de_puntos_geográficos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19146_Vocabulario_entre_dominios"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19147_LBS_-_Nodos_de_transferencia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19148_LBS_-_Sistema_de_referencia_lineal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19150_Ontología"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19151_Esquema_de_identificación_dinámica_de_posición_para_el_espacio_ubicuo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19157_Calidad_de_los_datos_geográficos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InstanciaProcedural"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InstanciaSemantica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InstanciaServicio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InstanciaSintactico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IntegracionModelo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IntegraciónEstandaresModulos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interfaces"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interoperabilidad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InteroperabilidadGabiernoElectronico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InteroperabilidadInformacionGeografica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InteroperabilidadSemantica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IntroduccionPerfiles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LenguajeGrafico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LenguajeGraficoOntologia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LenguajeLexico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LenguajeLexicoOntologia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LenguajesOntologicos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MarcoConceptualModeloReferencia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MetaMetaEstandaresFundamentosSemantico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MetaMetaProcedural"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MetaMetaSemantica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MetaMetaServicio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MetaProcedural"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MetaSemantica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MetaServicio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MetaSintactico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MetametaSintactico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ModeladoConceptual"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ModeloConceptualServiciosGubernamentales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ModeloReferenciaInformacionGeograficaISO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NTC_4611_Información_Geográfica_-_Metadatos_Geográficos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Normas_Complementarias"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Normas_Generales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Normas_Técnicas_Colombianas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Normas_de_Datos_Ráster_y_Malla"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Normas_de_Servicios"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OntologíaOWL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perfil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perfiles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProtocolosRed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PuntosVistaRM_ODP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReferenciasNormativas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReglasLenguajeOWL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RelacionPerfilesNormasBase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RelacionPerfilesNormasBase_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RequisitosUsoUML_OCL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sistema_de_referencia_de_coordenadas_temporales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sistema_de_referencia_espacial_por_coordenadas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sistema_de_referencia_por_coordenadas_paramétricas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sistema_de_referencia_temporal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sistema_de_referenciación_por_identificador_geográfico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SistemasArchivos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SistemasInformacionGeografica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TerminosAbreviados"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TerminosDefiniciones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TerminosDefinicionesTerminosAbreviados"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tipo_de_datos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UsoPerfiles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Uso_de_UML"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Uso_general_de_UML"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UsosModeloReferencia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UsosOntologiasInteroperabilidad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19125-1_Acceso_simple_a_características_(SFA)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19132_Servicios_basados_en_localización_(LBS)_-_Modelo_de_Referencia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISO_19149_Lenguaje_de_expresión_de_derechos_para_información_geográfica_(GeoREL)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NTC_5043_Información_Geográfica_–_Principios_Básicos_de_Calidad."/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NTC_5204_Información_Geográfica_–_Precisión_de_Redes_Geodésicas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NTC_5205_Información_Geográfica_–_Precisión_de_Datos_Espaciales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NTC_5660_Información_Geográfica_–_Procesos_de_la_Evaluación_de_Calidad_de_Información_Geográfica."/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NTC_5661_Información_Geográfica_–_Metodología_de_Catalogación_de_Objetos_Geográficos."/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NTC_5662__Información_Geográfica_–_Especificaciones_Técnicas_de_Producto_Geográficos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sistema_de_Referencia_de_Coordenadas_(CRS)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sistema_de_referencia_espacial_(SRS)"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contienePruebasAbstractas"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#define"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#defineConcepto"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#defineLaBasePara"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#dependeDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#describeCapa"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#describeEstandarDeProcedimiento"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#describeModeloDeReferencia"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#describePerfil"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#empleaLenguaje"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esComponenteEspacialDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esComponenteTemporalDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esMétodoDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#estableceFundamentoPara"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#fundamentalParaIDE"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#referenciaA"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#relacionadoConGobiernoElectronico"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#seBasaEn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#seRelacionaCon"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneComponenteFundamental"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneDefinición"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneMétodoDeReferenciación"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneNivelDeAbstracción"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneSubsección"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#utilizaComponenteEspacial"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#utilizaComponenteTemporal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#utilizaLenguajeOntológico"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#utilizaMetodo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#valida"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="elements1:creator"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="elements1:description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="elements1:source"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="elements1:tittle"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="elements:creator"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="elements:description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="elements:tittle"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#ISO_19110_Metodología_de_catalogación_de_fenómenos"/>
+        <Class IRI="#NTC_5661_Información_Geográfica_–_Metodología_de_Catalogación_de_Objetos_Geográficos."/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ISO_19111_Sistemas_de_referencia_con_coordenadas"/>
+        <Class IRI="#NTC_5204_Información_Geográfica_–_Precisión_de_Redes_Geodésicas"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ISO_19111_Sistemas_de_referencia_con_coordenadas"/>
+        <Class IRI="#NTC_5205_Información_Geográfica_–_Precisión_de_Datos_Espaciales"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ISO_19115_Metadatos"/>
+        <Class IRI="#NTC_4611_Información_Geográfica_-_Metadatos_Geográficos"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ISO_19131_Especificaciones_de_producto_de_datos"/>
+        <Class IRI="#NTC_5662__Información_Geográfica_–_Especificaciones_Técnicas_de_Producto_Geográficos"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ISO_19157_Calidad_de_los_datos_geográficos"/>
+        <Class IRI="#NTC_5043_Información_Geográfica_–_Principios_Básicos_de_Calidad."/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ISO_19157_Calidad_de_los_datos_geográficos"/>
+        <Class IRI="#NTC_5660_Información_Geográfica_–_Procesos_de_la_Evaluación_de_Calidad_de_Información_Geográfica."/>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#AbstraccionMundoReal"/>
+        <Class IRI="#ISO19101_Modelo_de_Referencia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alcance"/>
+        <Class IRI="#AbstraccionMundoReal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AlcanceNormasInformacionGeograficaISO"/>
+        <Class IRI="#FundamentosInteroperabilidadAlcanceModeloReferencia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AlcanceNormasPerfiles"/>
+        <Class IRI="#AnexoA_PruebasAbstractas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anexo"/>
+        <Class IRI="#ISO19101_Modelo_de_Referencia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnexoA_PruebasAbstractas"/>
+        <Class IRI="#Anexo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnexoB_CapasInteroperabilidad"/>
+        <Class IRI="#Anexo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnexoC_InteroperabilidadGobiernoElectronico"/>
+        <Class IRI="#Anexo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnexoD_EstandaresFundamentalesIDE"/>
+        <Class IRI="#Anexo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnexoE_AbstraccionMundoRealInformacionGeografica"/>
+        <Class IRI="#Anexo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnexoF_DescripcionNormasInformacionGeograficaISO"/>
+        <Class IRI="#Anexo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnexoG_FacilidadModeladoEsquemasConceptuales"/>
+        <Class IRI="#Anexo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AplicacionProcedural"/>
+        <Class IRI="#EstandaresProcedimiento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AplicacionSemantica"/>
+        <Class IRI="#FundamentoSemantico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AplicacionServicio"/>
+        <Class IRI="#FundamentoServicios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AplicacionSintactico"/>
+        <Class IRI="#FundamentoSintactico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BuscarAccederBasesDatos"/>
+        <Class IRI="#AnexoB_CapasInteroperabilidad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clases"/>
+        <Class IRI="#Clasificadores"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clasificadores"/>
+        <Class IRI="#ISO_19103_Esquemas_de_Lenguaje_Conceptual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CoexistenciaModulosUML_OWL"/>
+        <Class IRI="#LenguajeLexicoOntologia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Conformidad"/>
+        <Class IRI="#ISO19101_Modelo_de_Referencia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DesarrolloPerfil"/>
+        <Class IRI="#Perfil"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DiagramasClasesPaquetesUML"/>
+        <Class IRI="#LenguajeGraficoOntologia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Enumeraciones"/>
+        <Class IRI="#Clasificadores"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EstandaresProcedimiento"/>
+        <Class IRI="#ModeloReferenciaInformacionGeograficaISO"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FormalismoConceptual"/>
+        <Class IRI="#AbstraccionMundoReal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Formalismo_Conceptual"/>
+        <Class IRI="#AnexoA_PruebasAbstractas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FundamentoSemantico"/>
+        <Class IRI="#ModeloReferenciaInformacionGeograficaISO"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FundamentoServicios"/>
+        <Class IRI="#ModeloReferenciaInformacionGeograficaISO"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FundamentoSintactico"/>
+        <Class IRI="#ModeloReferenciaInformacionGeograficaISO"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fundamentos"/>
+        <Class IRI="#FundamentosInteroperabilidadAlcanceModeloReferencia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FundamentosInteroperabilidadAlcanceModeloReferencia"/>
+        <Class IRI="#ISO19101_Modelo_de_Referencia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#General"/>
+        <Class IRI="#Clasificadores"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeneralAbstraccion"/>
+        <Class IRI="#AbstraccionMundoReal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeneralAbstraccionE"/>
+        <Class IRI="#AnexoE_AbstraccionMundoRealInformacionGeografica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeneralCapas"/>
+        <Class IRI="#AnexoB_CapasInteroperabilidad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeneralIDE"/>
+        <Class IRI="#AnexoD_EstandaresFundamentalesIDE"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeneralModeloReferencia"/>
+        <Class IRI="#ModeloReferenciaInformacionGeograficaISO"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GobiernoElectronico"/>
+        <Class IRI="#AnexoC_InteroperabilidadGobiernoElectronico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GobiernoElectronicoDatosVinculados"/>
+        <Class IRI="#AnexoC_InteroperabilidadGobiernoElectronico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GobiernoElectronicoServiciosGubernamentales"/>
+        <Class IRI="#AnexoC_InteroperabilidadGobiernoElectronico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO19101_Modelo_de_Referencia"/>
+        <Class IRI="#Normas_Generales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19101-_2_Modelo_de_Referencia_-_Imágenes"/>
+        <Class IRI="#Normas_de_Datos_Ráster_y_Malla"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19103_Esquemas_de_Lenguaje_Conceptual"/>
+        <Class IRI="#Normas_Generales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19104_Terminología"/>
+        <Class IRI="#Normas_Generales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19105_Conformidad_y_Pruebas"/>
+        <Class IRI="#Normas_Generales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19106_Perfiles"/>
+        <Class IRI="#Normas_Generales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19107_Esquema_espacial"/>
+        <Class IRI="#Normas_Generales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19108_Modelo_temporal"/>
+        <Class IRI="#Normas_Generales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19109_Reglas_para_modelos_de_aplicación"/>
+        <Class IRI="#Normas_Generales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19110_Metodología_de_catalogación_de_fenómenos"/>
+        <Class IRI="#Normas_Generales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19111_Sistemas_de_referencia_con_coordenadas"/>
+        <Class IRI="#Normas_Generales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19112_Sistemas_de_referenciación_con_identificadores_geográficos"/>
+        <Class IRI="#Normas_Generales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19113_Principios_de_calidad"/>
+        <Class IRI="#Normas_Generales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19114_Evaluación_de_Calidad"/>
+        <Class IRI="#Normas_Generales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19115-2_Metadatos__-_Extensión_para_imágenes_y_datos_de_grilla"/>
+        <Class IRI="#Normas_de_Datos_Ráster_y_Malla"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19115_Metadatos"/>
+        <Class IRI="#Normas_Generales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19116_Servicios_de_posicionamiento"/>
+        <Class IRI="#Normas_de_Servicios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19117_Representación"/>
+        <Class IRI="#Normas_de_Servicios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19119_Servicios"/>
+        <Class IRI="#Normas_de_Servicios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19120_Normas_funcionales"/>
+        <Class IRI="#Normas_Complementarias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19121_Imágenes_y_datos_de_grilla"/>
+        <Class IRI="#Normas_de_Datos_Ráster_y_Malla"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19122_Cuantificación_y_certificación_de_personal"/>
+        <Class IRI="#Normas_Complementarias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19123_Esquemas_para_Cobertura"/>
+        <Class IRI="#Normas_de_Datos_Ráster_y_Malla"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19124_Componentes_de_imágenes_y_datos_de_grilla"/>
+        <Class IRI="#Normas_de_Datos_Ráster_y_Malla"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19125-2_Opción_SFA_-_SQL"/>
+        <Class IRI="#Normas_de_Servicios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19126_Diccionarios_y_registros_de_conceptos_de_características"/>
+        <Class IRI="#Normas_Complementarias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19127_Códigos_y_parámetros_geodésicos"/>
+        <Class IRI="#Normas_Complementarias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19128_Interfaz_de_servidor_de_mapas_Web"/>
+        <Class IRI="#Normas_de_Servicios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19129_Datos_de_Imágenes_y_Cobertura"/>
+        <Class IRI="#Normas_de_Datos_Ráster_y_Malla"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19130_Modelos_de_datos_de_sensores_para_imágenes_y_datos_de_grilla"/>
+        <Class IRI="#Normas_de_Datos_Ráster_y_Malla"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19131_Especificaciones_de_producto_de_datos"/>
+        <Class IRI="#Normas_Complementarias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19133_LBS_-_Seguimiento_y_navegación"/>
+        <Class IRI="#Normas_de_Servicios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19134_LBS_Multimodal_para_enrutamiento_y_navegación"/>
+        <Class IRI="#Normas_de_Servicios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19135_Procedimientos_para_registros_de_items"/>
+        <Class IRI="#Normas_Complementarias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19139_Metadatos_-_Esquema_de_implementación_XML"/>
+        <Class IRI="#Normas_Complementarias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19141_Esquema_para_características_móviles"/>
+        <Class IRI="#Normas_Complementarias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19142_Servicios_de_entidades_web"/>
+        <Class IRI="#Normas_de_Servicios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19143_Codificación_de_filtros"/>
+        <Class IRI="#Normas_de_Servicios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19144-1__Sistemas_de_Clasificación_-_Estructura_Sistemas_de_Clasificación"/>
+        <Class IRI="#Normas_Complementarias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19144-2_Sistemas_de_Clasificación_-_Sistema_de_clasificación_de_la_cobertura_terrestre"/>
+        <Class IRI="#Normas_Complementarias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19145_Registro_de_representaciones_de_ubicaciones_de_puntos_geográficos"/>
+        <Class IRI="#Normas_Complementarias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19146_Vocabulario_entre_dominios"/>
+        <Class IRI="#Normas_Complementarias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19147_LBS_-_Nodos_de_transferencia"/>
+        <Class IRI="#Normas_de_Servicios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19148_LBS_-_Sistema_de_referencia_lineal"/>
+        <Class IRI="#Normas_de_Servicios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19150_Ontología"/>
+        <Class IRI="#Normas_Complementarias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19151_Esquema_de_identificación_dinámica_de_posición_para_el_espacio_ubicuo"/>
+        <Class IRI="#Normas_Complementarias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19157_Calidad_de_los_datos_geográficos"/>
+        <Class IRI="#Normas_Complementarias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InstanciaProcedural"/>
+        <Class IRI="#EstandaresProcedimiento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InstanciaSemantica"/>
+        <Class IRI="#FundamentoSemantico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InstanciaServicio"/>
+        <Class IRI="#FundamentoServicios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InstanciaSintactico"/>
+        <Class IRI="#FundamentoSintactico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IntegracionModelo"/>
+        <Class IRI="#AnexoE_AbstraccionMundoRealInformacionGeografica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IntegraciónEstandaresModulos"/>
+        <Class IRI="#Perfil"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interfaces"/>
+        <Class IRI="#Clasificadores"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interoperabilidad"/>
+        <Class IRI="#ISO19101_Modelo_de_Referencia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InteroperabilidadGabiernoElectronico"/>
+        <Class IRI="#Interoperabilidad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InteroperabilidadInformacionGeografica"/>
+        <Class IRI="#Interoperabilidad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InteroperabilidadSemantica"/>
+        <Class IRI="#AnexoB_CapasInteroperabilidad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IntroduccionPerfiles"/>
+        <Class IRI="#Perfiles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LenguajeGrafico"/>
+        <Class IRI="#LenguajesOntologicos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LenguajeGraficoOntologia"/>
+        <Class IRI="#AnexoA_PruebasAbstractas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LenguajeLexico"/>
+        <Class IRI="#LenguajesOntologicos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LenguajeLexicoOntologia"/>
+        <Class IRI="#AnexoA_PruebasAbstractas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LenguajesOntologicos"/>
+        <Class IRI="#AbstraccionMundoReal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MarcoConceptualModeloReferencia"/>
+        <Class IRI="#ModeloReferenciaInformacionGeograficaISO"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetaMetaEstandaresFundamentosSemantico"/>
+        <Class IRI="#AnexoA_PruebasAbstractas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetaMetaProcedural"/>
+        <Class IRI="#EstandaresProcedimiento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetaMetaSemantica"/>
+        <Class IRI="#FundamentoSemantico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetaMetaServicio"/>
+        <Class IRI="#FundamentoServicios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetaProcedural"/>
+        <Class IRI="#EstandaresProcedimiento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetaSemantica"/>
+        <Class IRI="#FundamentoSemantico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetaServicio"/>
+        <Class IRI="#FundamentoServicios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetaSintactico"/>
+        <Class IRI="#FundamentoSintactico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetametaSintactico"/>
+        <Class IRI="#FundamentoSintactico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ModeladoConceptual"/>
+        <Class IRI="#AnexoE_AbstraccionMundoRealInformacionGeografica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ModeloConceptualServiciosGubernamentales"/>
+        <Class IRI="#AnexoC_InteroperabilidadGobiernoElectronico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ModeloReferenciaInformacionGeograficaISO"/>
+        <Class IRI="#ISO19101_Modelo_de_Referencia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NTC_4611_Información_Geográfica_-_Metadatos_Geográficos"/>
+        <Class IRI="#Normas_Técnicas_Colombianas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Normas_Complementarias"/>
+        <Class IRI="#FamiliaISO19100"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Normas_Generales"/>
+        <Class IRI="#FamiliaISO19100"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Normas_de_Datos_Ráster_y_Malla"/>
+        <Class IRI="#FamiliaISO19100"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Normas_de_Servicios"/>
+        <Class IRI="#FamiliaISO19100"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OntologíaOWL"/>
+        <Class IRI="#LenguajeLexicoOntologia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perfil"/>
+        <Class IRI="#AnexoA_PruebasAbstractas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perfiles"/>
+        <Class IRI="#ISO19101_Modelo_de_Referencia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProtocolosRed"/>
+        <Class IRI="#AnexoB_CapasInteroperabilidad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PuntosVistaRM_ODP"/>
+        <Class IRI="#AnexoD_EstandaresFundamentalesIDE"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReferenciasNormativas"/>
+        <Class IRI="#ISO19101_Modelo_de_Referencia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReglasLenguajeOWL"/>
+        <Class IRI="#LenguajeLexicoOntologia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RelacionPerfilesNormasBase"/>
+        <Class IRI="#Perfiles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RelacionPerfilesNormasBase_"/>
+        <Class IRI="#Perfil"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RequisitosUsoUML_OCL"/>
+        <Class IRI="#LenguajeGraficoOntologia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sistema_de_referencia_de_coordenadas_temporales"/>
+        <Class IRI="#Sistema_de_referencia_temporal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sistema_de_referencia_espacial_por_coordenadas"/>
+        <Class IRI="#Sistema_de_referencia_espacial_(SRS)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sistema_de_referencia_por_coordenadas_paramétricas"/>
+        <Class IRI="#Sistema_de_referencia_espacial_(SRS)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sistema_de_referencia_temporal"/>
+        <Class IRI="#ISO_19108_Modelo_temporal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sistema_de_referenciación_por_identificador_geográfico"/>
+        <Class IRI="#ISO_19112_Sistemas_de_referenciación_con_identificadores_geográficos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SistemasArchivos"/>
+        <Class IRI="#AnexoB_CapasInteroperabilidad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SistemasInformacionGeografica"/>
+        <Class IRI="#AnexoB_CapasInteroperabilidad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TerminosAbreviados"/>
+        <Class IRI="#TerminosDefinicionesTerminosAbreviados"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TerminosDefiniciones"/>
+        <Class IRI="#TerminosDefinicionesTerminosAbreviados"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TerminosDefinicionesTerminosAbreviados"/>
+        <Class IRI="#ISO19101_Modelo_de_Referencia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tipo_de_datos"/>
+        <Class IRI="#Clasificadores"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UsoPerfiles"/>
+        <Class IRI="#Perfiles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Uso_de_UML"/>
+        <Class IRI="#ISO_19103_Esquemas_de_Lenguaje_Conceptual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Uso_general_de_UML"/>
+        <Class IRI="#ISO_19103_Esquemas_de_Lenguaje_Conceptual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UsosModeloReferencia"/>
+        <Class IRI="#ModeloReferenciaInformacionGeograficaISO"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UsosOntologiasInteroperabilidad"/>
+        <Class IRI="#AnexoE_AbstraccionMundoRealInformacionGeografica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19125-1_Acceso_simple_a_características_(SFA)"/>
+        <Class IRI="#Normas_de_Servicios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19132_Servicios_basados_en_localización_(LBS)_-_Modelo_de_Referencia"/>
+        <Class IRI="#Normas_de_Servicios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISO_19149_Lenguaje_de_expresión_de_derechos_para_información_geográfica_(GeoREL)"/>
+        <Class IRI="#Normas_Complementarias"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NTC_5043_Información_Geográfica_–_Principios_Básicos_de_Calidad."/>
+        <Class IRI="#Normas_Técnicas_Colombianas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NTC_5204_Información_Geográfica_–_Precisión_de_Redes_Geodésicas"/>
+        <Class IRI="#Normas_Técnicas_Colombianas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NTC_5205_Información_Geográfica_–_Precisión_de_Datos_Espaciales"/>
+        <Class IRI="#Normas_Técnicas_Colombianas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NTC_5660_Información_Geográfica_–_Procesos_de_la_Evaluación_de_Calidad_de_Información_Geográfica."/>
+        <Class IRI="#Normas_Técnicas_Colombianas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NTC_5661_Información_Geográfica_–_Metodología_de_Catalogación_de_Objetos_Geográficos."/>
+        <Class IRI="#Normas_Técnicas_Colombianas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NTC_5662__Información_Geográfica_–_Especificaciones_Técnicas_de_Producto_Geográficos"/>
+        <Class IRI="#Normas_Técnicas_Colombianas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sistema_de_Referencia_de_Coordenadas_(CRS)"/>
+        <Class IRI="#ISO_19111_Sistemas_de_referencia_con_coordenadas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sistema_de_referencia_espacial_(SRS)"/>
+        <Class IRI="#ISO_19107_Esquema_espacial"/>
+    </SubClassOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esComponenteEspacialDe"/>
+        <ObjectProperty IRI="#utilizaComponenteEspacial"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esComponenteTemporalDe"/>
+        <ObjectProperty IRI="#utilizaComponenteTemporal"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esMétodoDe"/>
+        <ObjectProperty IRI="#tieneMétodoDeReferenciación"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#describeCapa"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#describeEstandarDeProcedimiento"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#describeModeloDeReferencia"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#describePerfil"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#estableceFundamentoPara"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#tieneDefinición"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#tieneNivelDeAbstracción"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#contienePruebasAbstractas"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#describeCapa"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#describeEstandarDeProcedimiento"/>
+    </InverseFunctionalObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#contienePruebasAbstractas"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#defineConcepto"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#describeCapa"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#describeEstandarDeProcedimiento"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#describeModeloDeReferencia"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#describePerfil"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#estableceFundamentoPara"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#fundamentalParaIDE"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#tieneNivelDeAbstracción"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#tieneSubsección"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#utilizaLenguajeOntológico"/>
+    </AsymmetricObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#contienePruebasAbstractas"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#defineConcepto"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#describeCapa"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#describeEstandarDeProcedimiento"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#describeModeloDeReferencia"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#describePerfil"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#estableceFundamentoPara"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#fundamentalParaIDE"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#tieneDefinición"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#tieneNivelDeAbstracción"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#tieneSubsección"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#utilizaLenguajeOntológico"/>
+    </IrreflexiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#contienePruebasAbstractas"/>
+        <Class IRI="#Anexo"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#define"/>
+        <Class IRI="#FundamentoSemantico"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#defineLaBasePara"/>
+        <Class IRI="#ISO_19101-_2_Modelo_de_Referencia_-_Imágenes"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#dependeDe"/>
+        <Class IRI="#ISO_19101-_2_Modelo_de_Referencia_-_Imágenes"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#describeCapa"/>
+        <Class IRI="#Anexo"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#describeEstandarDeProcedimiento"/>
+        <Class IRI="#ModeloReferenciaInformacionGeograficaISO"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#describeModeloDeReferencia"/>
+        <Class IRI="#MarcoConceptualModeloReferencia"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#describePerfil"/>
+        <Class IRI="#AlcanceNormasPerfiles"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#empleaLenguaje"/>
+        <Class IRI="#AbstraccionMundoReal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#empleaLenguaje"/>
+        <Class IRI="#LenguajeGraficoOntologia"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#empleaLenguaje"/>
+        <Class IRI="#LenguajeLexicoOntologia"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#esComponenteEspacialDe"/>
+        <Class IRI="#Sistema_de_referencia_espacial_(SRS)"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#esComponenteTemporalDe"/>
+        <Class IRI="#Sistema_de_referencia_temporal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#esMétodoDe"/>
+        <Class IRI="#Sistema_de_referenciación_por_identificador_geográfico"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#fundamentalParaIDE"/>
+        <Class IRI="#Anexo"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#referenciaA"/>
+        <Class IRI="#ISO_19115-2_Metadatos__-_Extensión_para_imágenes_y_datos_de_grilla"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#relacionadoConGobiernoElectronico"/>
+        <Class IRI="#Anexo"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#seBasaEn"/>
+        <Class IRI="#AbstraccionMundoReal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#seRelacionaCon"/>
+        <Class IRI="#ISO_19101-_2_Modelo_de_Referencia_-_Imágenes"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneComponenteFundamental"/>
+        <Class IRI="#ModeloReferenciaInformacionGeograficaISO"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneMétodoDeReferenciación"/>
+        <Class IRI="#Sistema_de_referencia_espacial_(SRS)"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneNivelDeAbstracción"/>
+        <Class IRI="#GeneralModeloReferencia"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#utilizaComponenteEspacial"/>
+        <Class IRI="#Sistema_de_Referencia_de_Coordenadas_(CRS)"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#utilizaComponenteTemporal"/>
+        <Class IRI="#Sistema_de_Referencia_de_Coordenadas_(CRS)"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#utilizaLenguajeOntológico"/>
+        <Class IRI="#AbstraccionMundoReal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#utilizaMetodo"/>
+        <Class IRI="#ModeloReferenciaInformacionGeograficaISO"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#valida"/>
+        <Class IRI="#AnexoA_PruebasAbstractas"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contienePruebasAbstractas"/>
+        <Class IRI="#AnexoA_PruebasAbstractas"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#define"/>
+        <Class IRI="#TerminosDefiniciones"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#defineLaBasePara"/>
+        <Class IRI="#ISO_19123_Esquemas_para_Cobertura"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#dependeDe"/>
+        <Class IRI="#ISO_19115-2_Metadatos__-_Extensión_para_imágenes_y_datos_de_grilla"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#dependeDe"/>
+        <Class IRI="#ISO_19115_Metadatos"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#dependeDe"/>
+        <Class IRI="#ISO_19130_Modelos_de_datos_de_sensores_para_imágenes_y_datos_de_grilla"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#describeCapa"/>
+        <Class IRI="#AnexoB_CapasInteroperabilidad"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#describeEstandarDeProcedimiento"/>
+        <Class IRI="#EstandaresProcedimiento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#describeModeloDeReferencia"/>
+        <Class IRI="#GeneralModeloReferencia"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#describePerfil"/>
+        <Class IRI="#Perfiles"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#empleaLenguaje"/>
+        <Class IRI="#LenguajeGrafico"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#empleaLenguaje"/>
+        <Class IRI="#LenguajeLexico"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#empleaLenguaje"/>
+        <Class IRI="#LenguajesOntologicos"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#esComponenteEspacialDe"/>
+        <Class IRI="#Sistema_de_Referencia_de_Coordenadas_(CRS)"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#esComponenteTemporalDe"/>
+        <Class IRI="#Sistema_de_Referencia_de_Coordenadas_(CRS)"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#esMétodoDe"/>
+        <Class IRI="#Sistema_de_referencia_espacial_(SRS)"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#fundamentalParaIDE"/>
+        <Class IRI="#AnexoD_EstandaresFundamentalesIDE"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#referenciaA"/>
+        <Class IRI="#ISO_19103_Esquemas_de_Lenguaje_Conceptual"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#referenciaA"/>
+        <Class IRI="#ISO_19115_Metadatos"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#referenciaA"/>
+        <Class IRI="#ISO_19157_Calidad_de_los_datos_geográficos"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#relacionadoConGobiernoElectronico"/>
+        <Class IRI="#AnexoC_InteroperabilidadGobiernoElectronico"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#seBasaEn"/>
+        <Class IRI="#Formalismo_Conceptual"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#seRelacionaCon"/>
+        <Class IRI="#ISO_19119_Servicios"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneComponenteFundamental"/>
+        <Class IRI="#EstandaresProcedimiento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneComponenteFundamental"/>
+        <Class IRI="#FundamentoSemantico"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneComponenteFundamental"/>
+        <Class IRI="#FundamentoServicios"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneComponenteFundamental"/>
+        <Class IRI="#FundamentoSintactico"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneMétodoDeReferenciación"/>
+        <Class IRI="#Sistema_de_referenciación_por_identificador_geográfico"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneNivelDeAbstracción"/>
+        <Class IRI="#AbstraccionMundoReal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#utilizaComponenteEspacial"/>
+        <Class IRI="#Sistema_de_referencia_espacial_(SRS)"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#utilizaComponenteTemporal"/>
+        <Class IRI="#Sistema_de_referencia_temporal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#utilizaLenguajeOntológico"/>
+        <Class IRI="#LenguajeGrafico"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#utilizaLenguajeOntológico"/>
+        <Class IRI="#LenguajeLexico"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#utilizaMetodo"/>
+        <Class IRI="#AbstraccionMundoReal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#valida"/>
+        <Class IRI="#Conformidad"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AbstraccionMundoReal</IRI>
+        <Literal>Proceso de modelado que vincula fenómenos geográficos (ej. ríos, ciudades) con representaciones conceptuales mediante</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Alcance</IRI>
+        <Literal>Esta parte de la norma ISO 19101 define el modelo de referencia para la estandarización en el ámbito de la información geográfica. Este modelo de referencia describe el concepto de interoperabilidad y establece los fundamentos para dicha estandarización.
+
+Aunque está estructurada en el contexto de la tecnología de la información y las normas de tecnología de la información, esta parte de la norma ISO 19101 es independiente de cualquier método de desarrollo de aplicaciones o enfoque de implementación de tecnología.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO19101_Modelo_de_Referencia</IRI>
+        <Literal>Define el modelo de referencia para la estandarización en el ámbito de la información geográfica. Este modelo de referencia describe el concepto de interoperabilidad y establece los fundamentos para dicha estandarización.
+
+Aunque está estructurada en el contexto de la tecnología de la información y las normas de tecnología de la información, esta parte de la norma ISO 19101 es independiente de cualquier método de desarrollo de aplicaciones o enfoque de implementación de tecnología.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19101-_2_Modelo_de_Referencia_-_Imágenes</IRI>
+        <Literal>Define un modelo de referencia para la estandarización en el ámbito del procesamiento de imágenes geográficas. Este modelo de referencia identifica el alcance de la actividad de estandarización que se lleva a cabo y el contexto en el que se desarrolla. El modelo de referencia incluye datos reticulados, con énfasis en imágenes. Si bien está estructurado en el contexto de las tecnologías de la información y sus estándares, este documento es independiente de cualquier método de desarrollo de aplicaciones o enfoque de implementación tecnológica.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19103_Esquemas_de_Lenguaje_Conceptual</IRI>
+        <Literal>Especifica las disposiciones para el uso de un lenguaje de esquema conceptual en el contexto del modelado de información geográfica. El lenguaje de esquema conceptual seleccionado es un subconjunto del Lenguaje Unificado de Modelado (UML).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19104_Terminología</IRI>
+        <Literal>especifica los requisitos para la recopilación, gestión y publicación de terminología en el campo de la información geográfica.
+El alcance de este documento incluye
+— selección de conceptos, armonización de conceptos y desarrollo de sistemas de conceptos,
+— estructura y contenido de las entradas terminológicas,
+— selección de términos,
+— preparación de la definición,
+— adaptación cultural y lingüística,
+— requisitos de diseño y formato en los documentos renderizados, y
+— establecimiento y gestión de registros terminológicos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19105_Conformidad_y_Pruebas</IRI>
+        <Literal>Especifica el marco, los conceptos y la metodología para las pruebas de conformidad, así como los criterios que deben cumplirse para declarar la conformidad con la familia de documentos de estandarización aplicables en lo que respecta a la información geográfica y los dominios de aplicación relevantes. 
+
+Asimismo, proporciona un marco para especificar conjuntos de pruebas abstractos compuestos por casos de prueba abstractos agrupados en clases de conformidad, y para definir los procedimientos que deben seguirse durante las pruebas de conformidad.
+
+La conformidad puede reclamarse para productos o servicios de datos o software, o mediante especificaciones que incluyan cualquier perfil o estándar funcional. La estructura y las relaciones entre las clases de conformidad, tal como se definen en este documento, fundamentan un enfoque sistemático para la gestión de la configuración que implica la gestión de dependencias dentro y entre módulos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19106_Perfiles</IRI>
+        <Literal>Esta Norma Internacional tiene por objeto definir el concepto de perfil de las normas ISO de información geográfica desarrolladas por el ISO/TC 211 y proporcionar orientación para la creación de dichos perfiles. Solo los componentes de las especificaciones que cumplen con la definición de perfil aquí contenida pueden establecerse y gestionarse mediante los mecanismos descritos en esta Norma Internacional.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19107_Esquema_espacial</IRI>
+        <Literal>Especifica esquemas conceptuales para describir las características espaciales de las entidades geográficas y un conjunto de operaciones espaciales coherentes con estos esquemas. 
+
+Trata la geometría y la topología &quot;vectoriales&quot;. 
+
+Define operaciones espaciales estándar para el acceso, la consulta, la gestión, el procesamiento y el intercambio de datos de información geográfica para objetos espaciales (geométricos y topológicos). Debido a la naturaleza de la información geográfica, estos espacios de coordenadas geométricas normalmente tendrán hasta tres dimensiones espaciales, una dimensión temporal y cualquier otro número de parámetros dependientes del espacio según las necesidades de las aplicaciones.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19108_Modelo_temporal</IRI>
+        <Literal>Esta Norma Internacional define conceptos para describir las características temporales de la información geográfica. 
+
+Se basa en las normas de tecnologías de la información existentes para el intercambio de información temporal. 
+
+Proporciona una base para definir los atributos, las operaciones y las asociaciones de características temporales, así como para definir los aspectos temporales de los metadatos sobre información geográfica.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19109_Reglas_para_modelos_de_aplicación</IRI>
+        <Literal>Esta Norma Internacional define reglas para crear y documentar esquemas de aplicación, incluidos principios para la definición de características.
+
+El alcance de esta Norma Internacional incluye lo siguiente:
+— modelado conceptual de características y sus propiedades a partir de un universo de discurso;
+— definición de esquemas de aplicación;
+— uso del lenguaje de esquema conceptual para esquemas de aplicación;
+— transición de los conceptos del modelo conceptual a los tipos de datos del esquema de aplicación;
+— integración de esquemas estandarizados de otras normas de información geográfica ISO con el esquema de aplicación.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19110_Metodología_de_catalogación_de_fenómenos</IRI>
+        <Literal>Define la metodología para la catalogación de tipos de entidades. 
+
+Especifica cómo organizar los tipos de entidades en un catálogo de entidades y presentarlos a los usuarios de un conjunto de datos geográficos. Es aplicable a la creación de catálogos de tipos de entidades en dominios no catalogados previamente y a la revisión de los catálogos de entidades existentes para que cumplan con las prácticas habituales. 
+
+Se aplica a la catalogación de tipos de entidades representados digitalmente. Sus principios se pueden extender a la catalogación de otros tipos de datos geográficos</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19111_Sistemas_de_referencia_con_coordenadas</IRI>
+        <Literal>Define el esquema conceptual para la descripción de la referenciación por coordenadas. Describe los datos mínimos necesarios para definir sistemas de referencia de coordenadas.
+
+La definición de un sistema de referencia de coordenadas no cambia con el tiempo, aunque en algunos casos algunos de los parámetros que lo definen pueden incluir una tasa de cambio. 
+Los valores de las coordenadas dentro de un sistema de referencia de coordenadas dinámico y temporal pueden cambiar con el tiempo.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19112_Sistemas_de_referenciación_con_identificadores_geográficos</IRI>
+        <Literal>Define el esquema conceptual para las referencias espaciales basadas en identificadores geográficos. Establece un modelo general para la referenciación espacial mediante identificadores geográficos y define los componentes de un sistema de referencia espacial. También especifica un esquema conceptual para un nomenclátor.
+
+La referenciación espacial mediante coordenadas se aborda en la norma ISO 19111</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19113_Principios_de_calidad</IRI>
+        <Literal>Establece los principios para describir la calidad de los datos geográficos y especifica los componentes para reportar información sobre la calidad. También proporciona un enfoque para organizar la información sobre la calidad de los datos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19114_Evaluación_de_Calidad</IRI>
+        <Literal>Proporciona un marco de procedimientos para determinar y evaluar la calidad aplicable a los conjuntos de datos geográficos digitales, en consonancia con los principios de calidad de datos definidos en la norma ISO 19113. 
+
+También establece un marco para evaluar y reportar los resultados de la calidad de los datos, ya sea únicamente como parte de los metadatos de calidad de los datos o también como un informe de evaluación de la calidad.proporciona un marco de procedimientos para determinar y evaluar la calidad aplicable a los conjuntos de datos geográficos digitales, en consonancia con los principios de calidad de datos definidos en la norma ISO 19113. 
+
+También establece un marco para evaluar y reportar los resultados de la calidad de los datos, ya sea únicamente como parte de los metadatos de calidad de los datos o también como un informe de evaluación de la calidad.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19115-2_Metadatos__-_Extensión_para_imágenes_y_datos_de_grilla</IRI>
+        <Literal>Este norma amplía la norma ISO 19115-1:2014 al definir el esquema necesario para una descripción mejorada de la adquisición y el procesamiento de información geográfica, incluidas las imágenes. 
+
+Se incluyen las propiedades de los sistemas de medición, así como los métodos numéricos y los procedimientos computacionales utilizados para obtener información geográfica a partir de los datos adquiridos por estos. Esta norma también proporciona la codificación XML para la adquisición y el procesamiento de metadatos, ampliando así los esquemas XML definidos en la norma ISO/TS 19115-3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19115_Metadatos</IRI>
+        <Literal>Define el esquema necesario para describir la información y los servicios geográficos mediante metadatos. Proporciona información sobre la identificación, la extensión, la calidad, los aspectos espaciales y temporales, el contenido, la referencia espacial, la representación, la distribución y otras propiedades de los datos y servicios geográficos digitales.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19116_Servicios_de_posicionamiento</IRI>
+        <Literal>Esta norma especifica la estructura de datos y el contenido de una interfaz que permite la comunicación entre los dispositivos que proporcionan la posición y los dispositivos que utilizan la posición, permitiendo que los dispositivos que utilizan la posición obtengan e interpreten de manera inequívoca información de posición y determinen, basándose en una medida del grado de confiabilidad, si la información de posición resultante cumple con los requisitos del uso previsto.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19117_Representación</IRI>
+        <Literal>Esta Norma Internacional especifica un esquema conceptual para la descripción de símbolos, funciones de representación que asignan entidades geoespaciales a símbolos, y la recopilación de símbolos y funciones de representación en catálogos de representación. 
+
+Este esquema conceptual puede utilizarse en el diseño de sistemas de representación. Permite separar los datos de entidades de los datos de representación, lo que permite representar los datos de forma independiente del conjunto de datos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19119_Servicios</IRI>
+        <Literal>Esta Norma Internacional define requisitos sobre cómo deben crearse especificaciones de servicios neutrales y específicas de la plataforma, con el fin de permitir que un servicio se especifique independientemente de una o más plataformas informáticas distribuidas subyacentes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19120_Normas_funcionales</IRI>
+        <Literal>Los estándares funcionales contribuye al manteniemiento del informe de estándares funcionales que incluye nueva información</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19121_Imágenes_y_datos_de_grilla</IRI>
+        <Literal>Analiza la forma en que actualmente se manejan los datos raster y en cuadrícula en la comunidad Geomática con el fin de proponer cómo este tipo de datos deberían ser respaldados por los estándares de información geográfica.
+
+Identifica los aspectos de las imágenes y los datos reticulados que se han estandarizado o se están estandarizando en otros comités ISO y organizaciones de normalización externas, y que influyen o respaldan el establecimiento de estándares de datos ráster y reticulados para información geográfica.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19122_Cuantificación_y_certificación_de_personal</IRI>
+        <Literal>Definir un modelo para describir y calificar identificadores geográficos, los cuales son utilizados para la referenciación espacial indirecta</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19123_Esquemas_para_Cobertura</IRI>
+        <Literal>Define un esquema conceptual para coberturas. 
+
+Una cobertura es un mapeo de un dominio espacial, temporal o espaciotemporal a valores de atributos que comparten el mismo tipo de atributo. 
+
+Un dominio de cobertura consiste en una colección de posiciones directas en un espacio de coordenadas que puede definirse en términos de dimensiones espaciales y/o temporales, así como dimensiones no espaciotemporales (en ISO 19111:2019 , “paramétricas”).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19124_Componentes_de_imágenes_y_datos_de_grilla</IRI>
+        <Literal>Se centra en la calibración y validación (Cal/Val) de datos de teledetección recopilados por un sensor a bordo de una plataforma durante una misión, así como en los productos derivados, total o parcialmente, de dichos datos.
+
+Esta norma aborda el marco general y los procesos comunes de calibración y validación relacionados con los datos de observación de la Tierra y los productos derivados de diferentes tipos de sensores remotos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19125-2_Opción_SFA_-_SQL</IRI>
+        <Literal>Especifica un esquema SQL que admite el almacenamiento, la recuperación, la consulta y la actualización de colecciones de características geoespaciales simples a través de la interfaz de nivel de llamada SQL (SQL/CLI)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19126_Diccionarios_y_registros_de_conceptos_de_características</IRI>
+        <Literal>Especifica un esquema para el establecimiento y la gestión de diccionarios de conceptos de características como registros. No especifica esquemas para catálogos de características ni para su gestión como registros. 
+
+Sin embargo, dado que los catálogos de características suelen derivarse de diccionarios de conceptos de características, este documento sí especifica un esquema para un registro jerárquico de diccionarios de conceptos de características y catálogos de características. Estos registros cumplen con la norma ISO 19135-1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19127_Códigos_y_parámetros_geodésicos</IRI>
+        <Literal>Esta norma define la gestión y las operaciones del registro geodésico ISO e identifica los elementos de datos, de acuerdo con la norma ISO 19111:2007 y el esquema central dentro de la norma ISO 19135-1:2015 , requeridos dentro del registro geodésico.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19128_Interfaz_de_servidor_de_mapas_Web</IRI>
+        <Literal>Esta Norma Internacional especifica el comportamiento de un servicio que genera mapas con referencia espacial de forma dinámica a partir de información geográfica. Especifica las operaciones para recuperar una descripción de los mapas ofrecidos por un servidor y para consultar a este sobre las entidades mostradas en un mapa. 
+Esta Norma Internacional es aplicable a las representaciones pictóricas de mapas en formato gráfico; no es aplicable a la recuperación de datos de entidades reales ni de valores de datos de cobertura.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19129_Datos_de_Imágenes_y_Cobertura</IRI>
+        <Literal>Define el marco para datos de imágenes, cuadrículas y cobertura. 
+Este marco define un modelo de contenido para el tipo de contenido de imágenes y para otros tipos de contenido específicos que pueden representarse como datos de cobertura. Estos modelos de contenido se representan como un conjunto de patrones UML genéricos para esquemas de aplicación.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19130_Modelos_de_datos_de_sensores_para_imágenes_y_datos_de_grilla</IRI>
+        <Literal>Esta norma identifica la información necesaria para determinar la relación entre la posición de un píxel detectado remotamente en las coordenadas de una imagen y su geoposición. Facilita la explotación de imágenes obtenidas mediante teledetección. Define los metadatos que se distribuirán con la imagen para que el usuario pueda determinar la posición geográfica a partir de las observaciones.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19131_Especificaciones_de_producto_de_datos</IRI>
+        <Literal>Esta norma describe los requisitos para la especificación de productos de datos geográficos, basándose en los conceptos de otras normas internacionales de la familia ISO 19100. También proporciona orientación para la creación de especificaciones de productos de datos, de modo que sean fáciles de comprender y se ajusten a su propósito previsto.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19133_LBS_-_Seguimiento_y_navegación</IRI>
+        <Literal>Esta Norma Internacional describe los tipos de datos y las operaciones asociadas a ellos para la implementación de servicios de seguimiento y navegación. Esta Norma Internacional está diseñada para especificar los servicios web que pueden estar disponibles para dispositivos inalámbricos a través de aplicaciones proxy residentes en la web, pero no se limita a ese entorno.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19134_LBS_Multimodal_para_enrutamiento_y_navegación</IRI>
+        <Literal>Esta Norma Internacional especifica los tipos de datos y sus operaciones asociadas para la implementación de servicios multimodales basados ​​en la localización para enrutamiento y navegación. Está diseñada para especificar los servicios web que pueden estar disponibles para dispositivos inalámbricos a través de aplicaciones proxy residentes en la web, pero no se limita a ese entorno.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19135_Procedimientos_para_registros_de_items</IRI>
+        <Literal>Esta norma especifica los procedimientos que deben seguirse para establecer, mantener y publicar registros de identificadores y significados únicos, inequívocos y permanentes asignados a elementos de información geográfica. Para lograr este propósito, esta parte de la norma ISO 19135 especifica los elementos necesarios para gestionar el registro de estos elementos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19139_Metadatos_-_Esquema_de_implementación_XML</IRI>
+        <Literal>Esta especificación técnica define la codificación XML de metadatos geográficos (gmd), una implementación del esquema XML derivada de la norma ISO 19115 .</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19141_Esquema_para_características_móviles</IRI>
+        <Literal>Esta Norma Internacional define un método para describir la geometría de un elemento que se mueve como un cuerpo rígido. Dicho movimiento tiene las siguientes características:
+a) La característica se mueve dentro de cualquier dominio compuesto de objetos espaciales según se especifica en ISO 19107 .
+b) La característica puede moverse a lo largo de una ruta planificada, pero puede desviarse de ella.
+c) El movimiento puede verse influenciado por fuerzas físicas, como fuerzas orbitales, gravitacionales o inerciales.
+d) El movimiento de una característica puede influir o ser influenciado por otras características, por ejemplo:
+1) La característica móvil podría seguir una ruta predefinida (por ejemplo, una carretera), quizás parte de una red, y podría cambiar de ruta en puntos conocidos (por ejemplo, paradas de autobús, puntos de referencia).
+2) Dos o más elementos móviles pueden “unirse” o separarse (por ejemplo, un avión reabastecerá combustible durante el vuelo, un depredador detecta y rastrea una presa, grupos de refugiados unen sus fuerzas).
+3) Dos o más entidades móviles pueden estar restringidas para mantener una relación espacial determinada durante un período determinado (por ejemplo, tractor y remolque, convoy).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19142_Servicios_de_entidades_web</IRI>
+        <Literal>Esta Norma Internacional especifica el comportamiento de un servicio de entidades web que proporciona transacciones y acceso a entidades geográficas de forma independiente del almacén de datos subyacente. Especifica operaciones de descubrimiento, consulta, bloqueo, transacción y gestión de expresiones de consulta parametrizadas almacenadas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19143_Codificación_de_filtros</IRI>
+        <Literal>Esta Norma Internacional describe una codificación XML y KVP de una sintaxis neutral del sistema para expresar proyecciones, cláusulas de selección y clasificación denominadas colectivamente expresión de consulta.
+Estos componentes son modulares y están destinados a ser utilizados juntos o individualmente por otras normas que hacen referencia a esta Norma Internacional.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19144-1__Sistemas_de_Clasificación_-_Estructura_Sistemas_de_Clasificación</IRI>
+        <Literal>Esta Norma Internacional define un método para describir la geometría de un elemento que se mueve como un cuerpo rígido. Dicho movimiento tiene las siguientes características:
+a) La característica se mueve dentro de cualquier dominio compuesto de objetos espaciales según se especifica en ISO 19107 .
+b) La característica puede moverse a lo largo de una ruta planificada, pero puede desviarse de ella.
+c) El movimiento puede verse influenciado por fuerzas físicas, como fuerzas orbitales, gravitacionales o inerciales.
+d) El movimiento de una característica puede influir o ser influenciado por otras características, por ejemplo:
+1) La característica móvil podría seguir una ruta predefinida (por ejemplo, una carretera), quizás parte de una red, y podría cambiar de ruta en puntos conocidos (por ejemplo, paradas de autobús, puntos de referencia).
+2) Dos o más elementos móviles pueden “unirse” o separarse (por ejemplo, un avión reabastecerá combustible durante el vuelo, un depredador detecta y rastrea una presa, grupos de refugiados unen sus fuerzas).
+3) Dos o más entidades móviles pueden estar restringidas para mantener una relación espacial determinada durante un período determinado (por ejemplo, tractor y remolque, convoy).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19144-2_Sistemas_de_Clasificación_-_Sistema_de_clasificación_de_la_cobertura_terrestre</IRI>
+        <Literal>Esta norma especifica un Metalenguaje de Cobertura Terrestre (LCML), expresado como un metamodelo UML, que permite describir diferentes sistemas de clasificación de la cobertura terrestre basándose en aspectos fisonómicos. 
+Esta norma reconoce la existencia de diversos sistemas de clasificación de la cobertura terrestre. Proporciona una estructura de referencia común para la comparación e integración de datos de cualquier sistema genérico de clasificación de la cobertura terrestre, pero no pretende sustituirlos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19145_Registro_de_representaciones_de_ubicaciones_de_puntos_geográficos</IRI>
+        <Literal>especifica un marco para el registro y la gestión de representaciones de información geográfica, es decir, cómo se describen, almacenan y comparten reglas relacionadas con:
+
+Esquemas de codificación
+Formatos de datos
+Convenciones de nombres
+Reglas de representación para objetos geográficos</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19146_Vocabulario_entre_dominios</IRI>
+        <Literal>Este documento establece una metodología para el mapeo cruzado de vocabularios. También especifica la implementación de la ISO 19135 - 1 para el registro de entradas de vocabulario mapeadas cruzadamente.
+Las metodologías para el desarrollo de ontologías y taxonomías relacionadas con la información geográfica y la geomática no están dentro del alcance de este documento.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19147_LBS_-_Nodos_de_transferencia</IRI>
+        <Literal>Esta Norma Internacional especifica los tipos de datos y las listas de códigos asociados con esos tipos para la implementación de nodos de transferencia y sus servicios en el modelado de transporte y los servicios basados ​​en la ubicación.
+Esta Norma Internacional incluye lo siguiente:
+— define los nodos de transferencia de forma multimodal de modo que la definición sea general y válida para todos los tipos de medios y modos de transporte;
+— vincula nodos de transferencia a una ubicación;
+— se centra en los atributos que definen el nodo de transferencia en relación con los nodos en redes específicas del modo;
+— define los atributos de los nodos de transferencia que son relevantes para la planificación de viajes y el modelado de sistemas de transporte interoperables por parte de los planificadores de transporte;
+— define un conjunto de servicios e instalaciones que pueden estar relacionados con los nodos de transferencia y una forma de proporcionar información sobre la accesibilidad, las desviaciones y las restricciones relacionadas con estos servicios e instalaciones.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19148_LBS_-_Sistema_de_referencia_lineal</IRI>
+        <Literal>Esta norma especifica un esquema conceptual para las ubicaciones relativas a un objeto unidimensional, como medida a lo largo de dicho objeto (y opcionalmente, con desplazamiento respecto a él). Define una descripción de los datos y las operaciones necesarias para usar y soportar la referencia lineal.
+Esta norma es aplicable al transporte, los servicios públicos, la protección ambiental, los servicios de localización y otras aplicaciones que definen ubicaciones relativas a objetos lineales. Para facilitar la lectura, la mayoría de los ejemplos analizados en este documento provienen del ámbito del transporte.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19150_Ontología</IRI>
+        <Literal>Define el marco para la interoperabilidad semántica de la información geográfica. Este marco define un modelo de alto nivel de los componentes necesarios para gestionar la semántica en las normas ISO de información geográfica mediante el uso de ontologías.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19157_Calidad_de_los_datos_geográficos</IRI>
+        <Literal>Esta norma establece los principios para describir la calidad de los datos geográficos.
+— define un sistema bien considerado de componentes para describir la calidad de los datos;
+— define el proceso para definir componentes adicionales específicos del dominio para describir la calidad de los datos;
+— especifica los componentes y la estructura del contenido de las medidas de calidad de los datos;
+— describe los procedimientos generales para evaluar la calidad de los datos geográficos;
+— establece principios para informar sobre la calidad de los datos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Interoperabilidad</IRI>
+        <Literal>Capacidad de sistemas de información geográfica para intercambiar y utilizar información geográfica de manera efectiva y eficiente, incluyendo aspectos técnicos, semánticos y organizativos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LenguajesOntologicos</IRI>
+        <Literal>Conjunto de lenguajes formales, gráficos o léxicos, usados para representar ontologías y modelos conceptuales en información geográfica.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ModeloReferenciaInformacionGeograficaISO</IRI>
+        <Literal>Representación estructurada y formal de conceptos, relaciones y fundamentos que sustentan la normalización en información geográfica según ISO 19101-1:2014.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NTC_4611_Información_Geográfica_-_Metadatos_Geográficos</IRI>
+        <Literal>Esta norma está directamente relacionada con la ISO 19115 (Metadatos) y busca establecer un esquema para la descripción de la información geográfica en Colombia. Actualmente se encuentra en proceso de actualización.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Perfiles</IRI>
+        <Literal>Conjunto específico de elementos y reglas derivados de normas base, adaptados para aplicaciones o contextos particulares.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#defineConcepto</IRI>
+        <Literal>Una Sección o Subsección define uno o varios ConceptosClave.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#defineLaBasePara</IRI>
+        <Literal>La ISO 19101-2 utiliza el esquema para funciones de cobertura definido en la ISO 19123 para modelar los datos de imágenes como coberturas.
+Los conceptos de dominio espacial, rango de atributos y la estructura de las coberturas son requisitos fundamentales para la representación de datos de imágenes dentro del modelo de referencia de la ISO 19101-2.
+
+La forma en que se organizan los píxeles o celdas y sus valores asociados se basa en los principios de las coberturas definidos en la ISO 19123.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#dependeDe</IRI>
+        <Literal>La ISO 19101-2 utiliza los conceptos fundamentales y la estructura general para la descripción de metadatos definidos en la ISO 19115-1 y los requisitos establecidos en la ISO 19115-2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#describeCapa</IRI>
+        <Literal>Un Anexo describe una CapaDeInteroperabilidad</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#describeEstandarDeProcedimiento</IRI>
+        <Literal>Una Sección describe un EstándarDeProcedimiento.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#describeModeloDeReferencia</IRI>
+        <Literal>Una Sección describe un aspecto del ModeloDeReferencia.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#describePerfil</IRI>
+        <Literal>Una Sección describe un Perfil.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#estableceFundamentoPara</IRI>
+        <Literal>Una Sección establece el Fundamento para un aspecto del ModeloDeReferencia.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#fundamentalParaIDE</IRI>
+        <Literal>Una Sección o Anexo es fundamental para la InfraestructuraDeDatosEspaciales.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#referenciaA</IRI>
+        <Literal>La norma ISO 19115-2 menciona de menara parcial o total las normas a las que hace referencia (incluyendo las modificaciones)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#relacionadoConGobiernoElectronico</IRI>
+        <Literal>Una Sección o Anexo está relacionado con GobiernoElectrónico.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#seRelacionaCon</IRI>
+        <Literal>La ISO 19101-2 puede usar los conceptos definidos en la ISO 19119 para describir servicios relacionados con la obtención, el procesamiento o la distribución de datos de imágenes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#tieneDefinición</IRI>
+        <Literal>Un ConceptoClave tiene una Definición.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#tieneMétodoDeReferenciación</IRI>
+        <Literal>Indica que un sistema de referenciación espacial incluye o utiliza un método específico de referenciación espacial, en este caso, el uso de identificadores geográficos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#tieneNivelDeAbstracción</IRI>
+        <Literal>Un aspecto del ModeloDeReferencia se aplica a un NivelDeAbstracción.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#tieneSubsección</IRI>
+        <Literal>Una Sección tiene una o varias Subsecciones.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#utilizaComponenteEspacial</IRI>
+        <Literal>Indica que un CRS usa un sistema de referencia espacial definido según ISO 19107.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#utilizaComponenteTemporal</IRI>
+        <Literal>Indica que un CRS puede incorporar un sistema de referencia temporal según ISO 19108.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#utilizaLenguajeOntológico</IRI>
+        <Literal>Una Sección discute o utiliza un LenguajeOntológico.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19125-1_Acceso_simple_a_características_(SFA)</IRI>
+        <Literal>Establece una arquitectura común y define los términos a utilizar dentro de la arquitectura.
+
+Esta norma estandariza los nombres y las definiciones geométricas para los tipos de geometría.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19132_Servicios_basados_en_localización_(LBS)_-_Modelo_de_Referencia</IRI>
+        <Literal>Define un modelo de referencia y un marco conceptual para los servicios basados ​​en la localización (SBP), y describe los principios básicos mediante los cuales las aplicaciones SBP pueden interoperar. Este marco referencia o contiene una ontología, una taxonomía, un conjunto de patrones de diseño y un conjunto básico de especificaciones abstractas de servicios SBP en UML.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ISO_19149_Lenguaje_de_expresión_de_derechos_para_información_geográfica_(GeoREL)</IRI>
+        <Literal>Esta Norma Internacional define un vocabulario o lenguaje basado en XML para expresar los derechos de la información geográfica, con el fin de que se puedan crear licencias digitales para dicha información y los servicios relacionados. Este lenguaje, GeoREL, es una extensión del lenguaje de expresión de derechos de la norma ISO/IEC 21000-5 y se utiliza para la creación de licencias digitales. Cada licencia digital expresará inequívocamente los derechos específicos que los propietarios (o sus agentes) de un recurso geográfico digital otorgan a los titulares de dicha licencia. El sistema de gestión de derechos digitales en el que se utilizan estas licencias puede ofrecer protección ex ante (antes del hecho) para todos estos recursos.
+
+NOTA: El uso correcto de un GeoREL implica la preservación de los derechos de acceso mediante la fórmula establecida en las licencias de uso. Por lo tanto, los datos de dominio público o privado, cuando están protegidos, permanecen en sus respectivos dominios si así lo estipulan los derechos de uso otorgados.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NTC_5043_Información_Geográfica_–_Principios_Básicos_de_Calidad.</IRI>
+        <Literal>Esta norma se relaciona con la ISO 19157 (Calidad de los datos geográficos) y define los componentes de la calidad de los datos geográficos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NTC_5204_Información_Geográfica_–_Precisión_de_Redes_Geodésicas</IRI>
+        <Literal>Si bien no es una adopción directa de una norma ISO 19100 específica, se relaciona con los aspectos de referencia espacial y calidad posicional, temas relevantes dentro de la serie ISO 19100 (por ejemplo, ISO 19111 - Referencia espacial por coordenadas).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NTC_5205_Información_Geográfica_–_Precisión_de_Datos_Espaciales</IRI>
+        <Literal>Similar a la NTC 5204, se enfoca en la calidad posicional de los datos espaciales, un aspecto fundamental dentro de los estándares ISO 19100.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NTC_5660_Información_Geográfica_–_Procesos_de_la_Evaluación_de_Calidad_de_Información_Geográfica.</IRI>
+        <Literal>DOCUMENTO EN ESTUDIO 
+Esta norma en desarrollo se relaciona directamente con la ISO 19157 (Calidad de los datos geográficos).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NTC_5661_Información_Geográfica_–_Metodología_de_Catalogación_de_Objetos_Geográficos.</IRI>
+        <Literal>DOCUMENTO EN ESTUDIO 
+Esta podría estar relacionada con la ISO 19110 (Metodología para la catalogación de entidades).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NTC_5662__Información_Geográfica_–_Especificaciones_Técnicas_de_Producto_Geográficos</IRI>
+        <Literal>DOCUMENTO EN ESTUDIO
+Esta norma en desarrollo probablemente se alinea con los principios de la ISO 19131 (Especificaciones del producto de datos geográficos).</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
