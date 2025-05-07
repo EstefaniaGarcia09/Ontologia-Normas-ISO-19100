@@ -17,11 +17,11 @@
     <Prefix name="elements1" IRI="http://purl.org/dc/elements/1.1/%20"/>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="elements:creator"/>
-        <Literal>Estefanía García</Literal>
+        <Literal>Estefania Garcia</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="elements:description"/>
-        <Literal>Ontología sobre la Familia de estándares ISO 19100 y Normas Técnicas Colombianas relacionadas</Literal>
+        <Literal>Ontologia sobre la Familia de estandares ISO 19100 y Normas Tecnicas Colombianas relacionadas</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="elements:tittle"/>
